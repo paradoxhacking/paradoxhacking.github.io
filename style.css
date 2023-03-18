@@ -57,5 +57,32 @@ main {
 }
 
 .all-content {
-    grid-template-columns: auto auto;
+    color: white;
+}
+
+.all-content:hover {
+    color: rgb(190, 190, 190);
+}
+
+a {
+    color: rgb(0, 140, 255);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(0, 102, 185);
+}
+
+li {
+    list-style-type: none;
+}
+
+#all-content {
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#all-content td {
+    padding: 15px;
 }
